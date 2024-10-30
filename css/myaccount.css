@@ -1,0 +1,89 @@
+* {padding: 0px; margin: 0px;}
+
+/*container*/
+.container {font-family: 'Segoe UI'}
+
+/*container1*/
+.container1 {width: auto; margin: auto; height: auto;} /*bg*/
+
+/*superb*/
+.superb {width: 1200px; overflow: hidden; padding: 0px 5px 5px 5px; margin: auto;}
+
+.superb .logo {float: left; width: 140px; margin-right: 100px; background: white;}
+
+/*menu*/
+nav {width: auto; margin: auto; background: white; height: 40px; line-height: 40px; float: right; padding-top: 7px;}
+
+nav ul li {list-style: none; float: left;}
+
+nav ul li:hover{background: white;}
+
+nav ul img {height: 30px; padding-top: 4px;}
+
+nav ul li a {text-decoration: none; color: black; padding: 15px; margin-left: 10px;}
+
+nav ul li a:hover {text-decoration: none;}
+
+nav ul ul {display: none; position: absolute;}
+
+nav ul li:hover ul {display: block;}
+
+nav ul ul li {background: white; float: none; position: relative;
+	right: 148.5px; top: 0%; z-index: 1; width: 225px;
+}
+nav ul ul li a {padding-right: 115px;}
+
+/*css container 2 dan FORM*/
+.container2 {width: auto; height: 550px; background: #f4f6f3; margin: auto;}
+
+.form {width: 1200px; margin: auto; overflow: hidden; height: auto; background: #f4f6f3;}
+.form .isi {width: 1200px;background: white; margin-top: 50px; height: 450px; padding-left: 50px;}
+
+.form h1 {padding-top: 50px; margin-bottom: 50px;}
+.form h2 {margin-bottom: 20px}
+.form label {display: block; padding-left: 5px;}
+.form input[type=text]{margin-left: 5px; margin-bottom: 10px; width: 1100px; height: 30px; margin-top: 5px;}
+.form input[type=password]{margin-left: 5px; margin-bottom: 10px; width: 1100px; height: 30px; margin-top: 5px;}
+
+.form button[type=button] {display: inline; margin-left: 5px; 
+	margin-top: 15px; background: black; color: white; padding: 5px 15px; border-radius: 2px;
+}
+.form .remember {display: inline;}
+.form .remember label{display: inline;}
+.form input[type=checkbox] {display: inline-block; margin-left: 5px;}
+.form a {display: block; margin-top: 15px; margin-left: 5px; color: black;}
+
+/*css container 3 dan FOOT*/
+.container3 {background: black; color: white;}
+.FOOT {width: 1200px; height: auto; margin: auto; overflow: hidden; padding-top: 65px; background: black;}
+
+/*css foot atas */
+.footatas {overflow: hidden;}
+.footatas p {margin-bottom: 10px;}
+
+.aboutus, .news, .subscribe {width: 380px;}
+.aboutus {float: left; margin-right: 20px;}
+
+.garis {width: 50px; border-bottom: 2px solid grey; margin-top: 5px; margin-bottom: 15px;}
+
+.news {float: left;}
+.news .picnews {float: left; margin-right: 15px;} /*bg*/
+.news .subpicnews a {text-decoration: none; color: white;}
+
+.subscribe {float: right;}
+.subscribe input {float: left; padding: 15px; width: 225px;}
+.subscribe button {margin-left: 15px; background: white; color: black; padding: 15px;}
+.subscribe button:hover {cursor: pointer;}
+.subscribe p {clear: both; margin-top: 15px;}
+
+.sosial img {width: 40px; height: auto; float: left; clip-path: circle(50%); height: 40px;
+	margin-right: 10px; margin-top: 15px;
+}
+.sosial img:hover{width: 42px; height: auto;}
+
+.picnews img {width: 50px;}
+
+footer {width: 1200px; height: auto; overflow: hidden; text-align: center; 
+	border-top: 1px solid silver; padding: 15px; margin-top: 100px; color: silver;
+}
+/* end css footer*/
